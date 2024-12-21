@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+/* ------Header CSS--------
+-------------------------------------------------------------------------------------------------------------- */
+header
+{
+    display: flex;
+    background-color:#ffffff;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #d1d1d1;
+    
+}
+.logo_container
+{
+    padding: 0;
+    margin: 0;
+
+}
+
+.myntra_logo{
+    height: 36px;
+    width: 53px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav_bar
+{
+    display: flex;
+    min-width: 500px;
+    justify-content: space-around;
+}
+.nav_bar a
+{
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-weight: 700;
+    text-decoration: none;
+    border-bottom: none;
+    padding: 30px 0;
+    border-bottom: 1px solid white;
+}
+.nav_bar a:hover
+{
+    border-bottom: 3px solid red;
+}
+.nav_bar a sup
+{
+    color: #ff3f6c;
+    font-size: 10px;
+    top: -.4rem;
+}
+.search_container
+{
+    height: 40px;
+    min-width: 400px;
+    display: flex;
+    align-items: center;
+}
+.search_icon
+{ 
+    height: 20px;
+    padding: 10px;
+    box-sizing: content-box;
+    font-weight: 300;
+    background-color: #f5f5f6;
+    border-radius: 4px 0 0 4px;
+}
+.search_input
+{ 
+    color: #696e79;
+    background-color: #f5f5f6;
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    height: 40px;
+    
+}
+.action_bar
+{
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+ 
+}
+.action_container
+{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+}
+.action_bar a
+{
+    text-decoration: none;
+    color: #282c3f;
+   
+}
+.bag_item_count
+{
+    white-space: nowrap;
+    text-align: center;
+    line-height: 18px;
+    padding: 0 6px;
+    height: 18px;
+    background: #ff3f6c;
+    position: relative;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #fff;
+    left: 13px;
+    top: -50px;
+    font-weight: 700;
+}
+/* ------Main CSS-------- 
+----------------------------------------------------------------------------------------------------------*/
+
+.items_container
+{
+   width: 80%;
+   margin:40px 10%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.item_container
+{
+    width: 250px;
+    /* border: 1px solid #d1d1d1; */
+    margin-bottom: 15px;
+}
+.item_img
+{
+    width: 100%;
+}
+.rating
+{
+    font-size: 12px;
+    font-weight: 700;
+}
+.company_name
+{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    color: #282c3f;
+    margin-bottom: 6px;
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.item_name
+{
+    color: #535766;
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 0;
+    margin-top: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 400;
+    display: block;
+}
+.price
+{
+    margin: 10px 0 6px;
+    font-weight: 700;
+}
+
+.current_price
+{
+    font-size: 14px;
+    font-weight: 700;
+    color: #282c3f;
+}
+.original_price
+{
+    text-decoration: line-through;
+    color: #7e818c;
+    font-weight: 400;
+    margin-left: 5px;
+    font-size: 12px;
+}
+.discount
+{
+    color: #ff905a;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 5px;
+}
+.btn-add-bag
+{
+    width: 100%;
+    margin-top: 5px;
+    
+    background-color: lightgreen;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+/* ------Footer CSS-------- 
+-------------------------------------------------------------------------------------------------------------*/
+footer
+{
+    background-color: #f1f4f7;
+}
+.footer_container
+{
+    padding: 30px 0px 40px 0px;
+    background-color: #f1f4f7;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer_column{
+    display: flex;
+    flex-direction: column;
+}
+.footer_column h3{
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.footer_column a{
+    color: #696b79;
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+.footer_img
+{
+    display: flex;
+}
+.img-footer
+{
+    height: 40px;
+    width: 140px;
+    margin-left: 5px;
+}
+.img-app
+{
+    height: 25px;
+    width: 25px;
+    margin-left: 5px;
+}
+.about_us
+{
+    display: flex;
+    justify-content: space-around;
+    color: #696b79;
+}
+.about_us a
+{
+    text-decoration: none;
+}
+.about_us a:hover
+{
+    text-decoration: underline;
+    color: #ff3f6c;
+}

@@ -1,0 +1,200 @@
+.bag_page
+{
+   display: flex;
+   height: 100%;
+   width: 100%;
+}
+.bag_items_container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60%;
+    
+}
+.bag_item_container
+{
+    margin: 3%;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    background-color: rgba(250, 252, 254, 0.922);
+    border: 1px solid rgb(185, 180, 180);
+    border-radius: 5px;
+}
+.item_left_part
+{
+    height:90%;
+    width: 30%;
+    margin: 2%;
+    
+}
+.item_image
+{
+    height: 100%;
+    width: 100%;
+}
+.item_right_part
+{
+    margin:1% 0 1% 0;
+}
+.company_name
+{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    color: #282c3f;
+    margin-bottom: 6px;
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.item_name
+{
+    color: #535766;
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 0;
+    margin-top: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 400;
+    display: block;
+}
+.price
+{
+    font-weight: 700;
+}
+.current_price
+{
+    font-size: 14px;
+    font-weight: 700;
+    color: #282c3f;
+}
+.original_price
+{
+    text-decoration: line-through;
+    color: #7e818c;
+    font-weight: 400;
+    margin-left: 5px;
+    font-size: 12px;
+}
+.discount
+{
+    color: #ff905a;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 5px;
+}
+.item_return_policy
+{
+    margin-top: 15px;
+}
+.return_day
+{
+    font-size: 14px;
+    font-weight: 700;
+    color: #282c3f;
+}
+
+.delivery
+{   
+    color: #535766;
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 0;
+    margin-top: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 400;
+    display: block;
+}
+.delivery_date
+{
+    color: rgb(9, 208, 118);
+}
+.remove_from_cart
+{
+    margin: 2%;
+    font-size: 25px;
+   
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    height: fit-content;
+    width: fit-content;
+    
+}
+.bag_summary
+ {
+    height: 100%;
+    
+    position: relative; 
+    left: auto;
+    top: auto;
+  
+   
+}
+.price_Detail
+{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    color: #282c3f;
+    margin-bottom: 6px;
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.total_Mrp,.discount_Mrp,.coupon_discount,.shipping,.Total
+{
+    display: flex;
+    justify-content: space-between;
+}
+.name_mrp,.name_discount,.name_coupon,.name_shipping
+{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    color: #282c3f;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.amount_mrp,.amount_discount,.coupon_apply,.Shipping_detail
+{
+    line-height: 1;
+    color: #282c3f;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.bag_line
+{
+    margin-top: 10px;
+}
+.amount_discount
+{
+    color: rgb(47, 214, 158);
+}
+.Total_text,.Total_amount
+{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    color: #282c3f;
+    margin: 15px 0;
+}
+
+.order_btn
+{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(255, 63, 108);
+    color: azure;
+    border: none;
+    
+}
